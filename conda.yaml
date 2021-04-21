@@ -1,0 +1,14 @@
+name: jocl_model
+channels:
+        - defaults
+dependencies:
+        - scikit-learn=0.24.1
+        - pandas=1.2.3
+        - numpy=1.19.2
+        - cloudpickle=1.6.0
+        - pip=20.3.1
+        - boto3
+        - pip
+        - pip:
+                - mlflow
+                - influxdb
